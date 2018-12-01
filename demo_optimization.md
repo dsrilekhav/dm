@@ -24,7 +24,7 @@ fn = "GermanCredit_Age35.csv"
 
 
 ```python
-target_att = 6 
+target_att = 3 
 ```
 
 ##### Step 3: Specify which value of sentitive attribute represents the protected group
@@ -74,8 +74,6 @@ out_fn = "testOptimization.csv"
 
 ```python
 main(fn, target_att, sensi_att, opt_k, acc_measure, cut_point, out_fn)
-print "Finished optimization"
-print "OPT result stores in "+ out_fn
 ```
 
     Finished reading csv!
